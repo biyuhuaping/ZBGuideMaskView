@@ -8,7 +8,7 @@
 
 1. 这里是列表文本一次性显示全部引导功能
 
-![ZBGuide1](images/111.gif)
+![ZBGuide1](images/222.gif)
 
 2. 一次显示一个引导功能
 
