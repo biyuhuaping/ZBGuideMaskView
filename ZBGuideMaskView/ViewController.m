@@ -48,7 +48,10 @@
     NSArray *transparentRectArr = @[[NSValue valueWithCGRect:rect1],[NSValue valueWithCGRect:rect2],[NSValue valueWithCGRect:rect3]];
     // @[@3]
     // @[@1,@1,@1]
-    NSArray *orderArr = @[@1,@1,@1];
+    NSArray *orderArr;
+//    orderArr = @[@1,@1,@1];
+//    orderArr = @[@1,@2];
+    orderArr = @[@3];
     ZBGuideMaskView *maskView = [ZBGuideMaskView new];
     [maskView addImages:imageArr imageFrame:imgFrameArr TransparentRect:transparentRectArr orderArr:orderArr];
     [maskView showMaskViewInView:self.view];
