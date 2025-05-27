@@ -41,10 +41,10 @@
     CGRect rect2 = self.tapBtn.frame;
     CGRect rect3 = self.bgImg.frame;
     NSArray *imgFrameArr = @[
-                              [NSValue valueWithCGRect:CGRectMake(rect1.origin.x-118, CGRectGetMaxY(rect1)-123, 118, 123)],
-                              [NSValue valueWithCGRect:CGRectMake(CGRectGetMaxX(rect2), rect2.origin.y-108, 206, 108)],
-                              [NSValue valueWithCGRect:CGRectMake(CGRectGetMaxX(rect3)-130, CGRectGetMaxY(rect3), 144 , 113)]
-                              ];
+        [NSValue valueWithCGRect:CGRectMake(rect1.origin.x-118, CGRectGetMaxY(rect1)-123, 118, 123)],
+        [NSValue valueWithCGRect:CGRectMake(CGRectGetMaxX(rect2), rect2.origin.y-108, 206, 108)],
+        [NSValue valueWithCGRect:CGRectMake(CGRectGetMaxX(rect3)-130, CGRectGetMaxY(rect3), 144 , 113)]
+    ];
     NSArray *transparentRectArr = @[[NSValue valueWithCGRect:rect1],[NSValue valueWithCGRect:rect2],[NSValue valueWithCGRect:rect3]];
     // @[@3]
     // @[@1,@1,@1]
